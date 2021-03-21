@@ -2,13 +2,15 @@
 
 HKUST MATH6380O Deep Learning, course project 1
 
-Kelly Hwong
+Author: Kan HUANG
+
+Date: Spring 2018
 
 ## Experiment Environments
 
 Using 6400 of 60000 data from training set as training data. And 1960 data from 10000 data from test set as testing data. For my machine is not so good, this can save much time.
 
-The framework is PyTorch. Using this lib to extract ScatNet features: https://github.com/edouardoyallon/pyscatwave
+The deep learning framework is PyTorch. Using this lib to extract ScatNet features: https://github.com/edouardoyallon/pyscatwave
 And this model to extract VGG19 features: https://github.com/aaron-xichen/pytorch-playground/blob/master/mnist/model.py
 For both of above features, first using t-SNE to visulize them, them classify them using trained SVM.
 
